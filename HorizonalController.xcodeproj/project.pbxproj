@@ -15,6 +15,9 @@
 		875659AD1CFC0FBF00524CC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875659AB1CFC0FBF00524CC0 /* LaunchScreen.storyboard */; };
 		875659B81CFC0FBF00524CC0 /* HorizonalControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 875659B71CFC0FBF00524CC0 /* HorizonalControllerTests.m */; };
 		875659C31CFC0FBF00524CC0 /* HorizonalControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 875659C21CFC0FBF00524CC0 /* HorizonalControllerUITests.m */; };
+		875659D21CFC0FEA00524CC0 /* HorizonalController.m in Sources */ = {isa = PBXBuildFile; fileRef = 875659D11CFC0FEA00524CC0 /* HorizonalController.m */; };
+		875659D51CFC102100524CC0 /* 22.png in Resources */ = {isa = PBXBuildFile; fileRef = 875659D31CFC102100524CC0 /* 22.png */; };
+		875659D61CFC102100524CC0 /* 111.png in Resources */ = {isa = PBXBuildFile; fileRef = 875659D41CFC102100524CC0 /* 111.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		875659BE1CFC0FBF00524CC0 /* HorizonalControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HorizonalControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		875659C21CFC0FBF00524CC0 /* HorizonalControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorizonalControllerUITests.m; sourceTree = "<group>"; };
 		875659C41CFC0FBF00524CC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		875659D01CFC0FEA00524CC0 /* HorizonalController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizonalController.h; sourceTree = "<group>"; };
+		875659D11CFC0FEA00524CC0 /* HorizonalController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizonalController.m; sourceTree = "<group>"; };
+		875659D31CFC102100524CC0 /* 22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 22.png; sourceTree = "<group>"; };
+		875659D41CFC102100524CC0 /* 111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 111.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +110,8 @@
 			children = (
 				875659A01CFC0FBF00524CC0 /* AppDelegate.h */,
 				875659A11CFC0FBF00524CC0 /* AppDelegate.m */,
+				875659D01CFC0FEA00524CC0 /* HorizonalController.h */,
+				875659D11CFC0FEA00524CC0 /* HorizonalController.m */,
 				875659A31CFC0FBF00524CC0 /* ViewController.h */,
 				875659A41CFC0FBF00524CC0 /* ViewController.m */,
 				875659A61CFC0FBF00524CC0 /* Main.storyboard */,
@@ -117,6 +126,8 @@
 		8756599D1CFC0FBF00524CC0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				875659D31CFC102100524CC0 /* 22.png */,
+				875659D41CFC102100524CC0 /* 111.png */,
 				8756599E1CFC0FBF00524CC0 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -244,7 +255,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				875659AD1CFC0FBF00524CC0 /* LaunchScreen.storyboard in Resources */,
+				875659D51CFC102100524CC0 /* 22.png in Resources */,
 				875659AA1CFC0FBF00524CC0 /* Assets.xcassets in Resources */,
+				875659D61CFC102100524CC0 /* 111.png in Resources */,
 				875659A81CFC0FBF00524CC0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +285,7 @@
 			files = (
 				875659A51CFC0FBF00524CC0 /* ViewController.m in Sources */,
 				875659A21CFC0FBF00524CC0 /* AppDelegate.m in Sources */,
+				875659D21CFC0FEA00524CC0 /* HorizonalController.m in Sources */,
 				8756599F1CFC0FBF00524CC0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +512,7 @@
 				875659C91CFC0FBF00524CC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		875659CA1CFC0FBF00524CC0 /* Build configuration list for PBXNativeTarget "HorizonalControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +521,7 @@
 				875659CC1CFC0FBF00524CC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		875659CD1CFC0FBF00524CC0 /* Build configuration list for PBXNativeTarget "HorizonalControllerUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +530,7 @@
 				875659CF1CFC0FBF00524CC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

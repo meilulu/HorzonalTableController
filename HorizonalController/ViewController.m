@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "HorizonalController.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    HorizonalController *vc = [[HorizonalController alloc]  initWithPictures:@[@"111",@"22"]];
+    [self addChildViewController:vc];
+    [self.view addSubview:vc.view];
+    
+    //    HorizonalController *vc = [[HorizonalController alloc] initWithPictures:@[@"111",@"22"]];
+    //    [self presentViewController:vc  animated:NO completion:nil];
+    //    [self.navigationController pushViewController:[[HorizonalController alloc] initWithPictures:@[@"111",@"22"]]  animated:NO];
+
 }
 
 - (void)didReceiveMemoryWarning {
